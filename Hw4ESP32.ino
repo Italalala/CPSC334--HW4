@@ -52,14 +52,14 @@ void loop()
 
   if(val>0){
     eyes=constrain(val,0,1300);
-    eyes = map(eyes,0, 1300, 0, 100);
+    eyes = map(eyes,0, 1300, 0, 75);
     myservo.write(eyes);
     Serial.println("opening eyes " + String(eyes));
-    delay(350);
+    delay(40 0);
 
     if(val>1300){
     jaw = constrain(val,1300, 2600);
-    jaw=map(jaw,1300,2600,0, 509);
+    jaw=map(jaw,1300,2600,0, 350);
     stepper.setSpeed(10);
     Serial.println("Opening mouth " + String(jaw));
     stepper.step(jaw);
