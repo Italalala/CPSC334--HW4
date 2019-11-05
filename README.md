@@ -16,6 +16,7 @@ exploring the ways that even such a small moment can be mediated by machines.
 1 mini vibrating motor
 1 ceramic plate piezoelectric sensor
 Assorted jumpers and wires
+1 breadboard
 
 *Other materials*
 Sculpting wire
