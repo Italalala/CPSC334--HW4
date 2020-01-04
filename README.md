@@ -10,6 +10,7 @@ then its mouth, and then vibrate its tongue. The artwork is both an experiment w
 materials and engineering, and a simulation of a small and gentle human interaction,
 exploring the ways that even such a small moment can be mediated by machines.
 
+
 *Hardware*
 
 1 ESP32
@@ -19,6 +20,7 @@ exploring the ways that even such a small moment can be mediated by machines.
 1 ceramic plate piezoelectric sensor
 Assorted jumpers and wires
 1 breadboard
+
 
 *Other materials*
 
@@ -30,6 +32,7 @@ Wood box structure 16" tall x 14" wide x 12" deep
 Hand-shaped wood cutout
 Foam
 Cardboard
+
 
 *The sculpture*
 
@@ -46,6 +49,7 @@ taped down to the wood surface, and foam is cut to shape and layered over that. 
 sheet of painted paper brings the hand into the world of the sculpture.
 The piezo and all the motors are wired into the ESP32, which is held in a cardboard
 cradle in the back of the box.
+
 
 *The code*
 
