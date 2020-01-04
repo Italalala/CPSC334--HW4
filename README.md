@@ -3,6 +3,7 @@ Motors project - GAPE
 
 
 *Introduction*
+
 GAPE is an interactive sculpture in which an audience member touches a hand and causes,
 depending on the strength of the touch, a sleeping face to in succession open its eyes,
 then its mouth, and then vibrate its tongue. The artwork is both an experiment with
@@ -10,6 +11,7 @@ materials and engineering, and a simulation of a small and gentle human interact
 exploring the ways that even such a small moment can be mediated by machines.
 
 *Hardware*
+
 1 ESP32
 1 mini servo motor
 1 5-12v stepper motor
@@ -19,6 +21,7 @@ Assorted jumpers and wires
 1 breadboard
 
 *Other materials*
+
 Sculpting wire
 Paper
 Acrylic paint
@@ -29,6 +32,7 @@ Foam
 Cardboard
 
 *The sculpture*
+
 The face is constructed from a wire armature, covered with painted, cut-out planes
 of painted paper, affixed with hot glue. The eye lids are glued to long a wire that
 acts as an axle, extending through holes in either side wall of the wood frame. The
@@ -44,6 +48,7 @@ The piezo and all the motors are wired into the ESP32, which is held in a cardbo
 cradle in the back of the box.
 
 *The code*
+
 The code is simple and is all run in a single Arduino script flashed onto the ESP.
 The script reads values continuously from the piezo. Because the piezo tends to read
 a lot of noise, the script waits for large changes in values before taking a touch
